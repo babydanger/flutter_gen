@@ -32,7 +32,7 @@ class LottieIntegration extends Integration {
   String get classOutput => _classDefinition;
 
   String get _classDefinition =>
-      '''class LottieGenImage extends $AssetsImagesGen {
+      '''class LottieGenImage extends \$AssetsImagesGen {
   const LottieGenImage(this._assetName);
 
   final String _assetName;

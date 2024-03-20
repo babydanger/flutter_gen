@@ -25,7 +25,7 @@ class ImageIntegration extends Integration {
   String get classOutput => _classDefinition;
 
   String get _classDefinition =>
-      '''class AssetGenImage extends $AssetsImagesGen{
+      '''class AssetGenImage extends \$AssetsImagesGen{
   const AssetGenImage(this._assetName, {this.size = null});
 
   final String _assetName;
