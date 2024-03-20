@@ -20,7 +20,7 @@ class SvgIntegration extends Integration {
   @override
   String get classOutput => _classDefinition;
 
-  String get _classDefinition => '''class SvgGenImage {
+  String get _classDefinition => '''class SvgGenImage extends $AssetsImagesGen{
   const SvgGenImage(this._assetName, {this.size = null});
 
   final String _assetName;

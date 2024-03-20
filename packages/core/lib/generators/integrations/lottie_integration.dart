@@ -31,7 +31,8 @@ class LottieIntegration extends Integration {
   @override
   String get classOutput => _classDefinition;
 
-  String get _classDefinition => '''class LottieGenImage {
+  String get _classDefinition =>
+      '''class LottieGenImage extends $AssetsImagesGen {
   const LottieGenImage(this._assetName);
 
   final String _assetName;
